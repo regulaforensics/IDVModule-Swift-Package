@@ -1,19 +1,24 @@
 // swift-tools-version:5.3
 import PackageDescription
 
+let packageName = "IDVModule"
+
 let package = Package(
-    name: "IDVModule",
-    platforms: [.iOS(.v14)],
+    name: packageName,
+    platforms: [
+        .iOS(.v14)
+    ],
     products: [
         .library(
-            name: "IDVModule",
-            targets: ["IDVModule"]),
+            name: packageName,
+            targets: [packageName]
+        ),
     ],
     targets: [
         .binaryTarget(
-            name: "IDVModule",
-            url: "https://pods.regulaforensics.com/IDVModule/3.1.1203/IDVModule-3.1.1203.zip",
-            checksum: "8868ec92b175123a5c9282d2e28fa4f4e4d2eb577143f4c9783b7f450f705fc0"
+            name: packageName,
+            url: "https://pods.regulaforensics.com/\(packageName)/3.6.1740/\(packageName)-3.6.1740.zip",
+            checksum: "dbbf93aeeffc2060f3cb95ad431f84785105c499f66f6da01ae118808a4eb0f2"
         ),
     ]
 )
