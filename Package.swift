@@ -2,7 +2,7 @@
 import PackageDescription
 
 let packageName = "IDVModule"
-let binaryTargetName = "IDVModuleNightly"
+let binaryTargetName = "IDVModuleStage"
 
 let package = Package(
     name: packageName,
@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: binaryTargetName,
-            url: "https://pods.regulaforensics.com/Nightly/IDVModuleNightly/3.10.2033/IDVModuleNightly-3.10.2033.zip",
-            checksum: "a5400bda48bb52f94d41c02c883ac5d6bfbbcdd9a41915600fcae0ad6a7f1756"
+            url: "https://pods.regulaforensics.com/Stage/IDVModuleStage/3.10.2035/IDVModuleStage-3.10.2035.zip",
+            checksum: "596af5f17c1a7319f0842a25c0cfcb91a90b52f6fdd087580f2c4a38d70d4245"
         ),
     ]
 )
