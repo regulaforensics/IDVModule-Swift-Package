@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: binaryTargetName,
-            url: "https://pods.regulaforensics.com/Nightly/IDVModuleNightly/3.10.2054/IDVModuleNightly-3.10.2054.zip",
-            checksum: "b25140e82094391c9fcfd612101cad2fd52e65f483106ff1de7f23e74c09ba7a"
+            url: "https://pods.regulaforensics.com/Nightly/IDVModuleNightly/3.10.2055/IDVModuleNightly-3.10.2055.zip",
+            checksum: "ee5b3ae1d80092232a1bdc900fd9016b88a0153ecb9f51266ce9b0692eb68f87"
         ),
     ]
 )
